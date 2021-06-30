@@ -18,16 +18,15 @@ export function SignIn() {
       />
       <View style={styles.content}>
         <Text style={styles.title}>
-          Organize{`\n`}
-          jogatinas com{`\n`}
-          PlayToday
+          Lista de{`\n`}
+          Compras
         </Text>
         <Text style={styles.subtitle}>
-          Crie grupos para jogar seus games {`\n`}
-          favoritos com seus amigos
+          Organize suas compras {`\n`}
+          por datas em grupo
         </Text>
         <ButtonIcon
-          title='Entrar com Discord'
+          title='Entrar com Gmail'
           activeOpacity={0.7}
         />
       </View>

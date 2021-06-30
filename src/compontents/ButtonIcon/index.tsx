@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   TouchableOpacityProps
 } from 'react-native';
-import DiscordImg from '../../assets/discord.png'
+import GoogleImg from '../../assets/google-icon.png'
 import { styles } from './styles';
 
 type Props = TouchableOpacityProps & { title: string }
@@ -18,7 +18,7 @@ export function ButtonIcon({ title, ...rest }: Props) {
       {...rest}
     >
       <View style={styles.iconWrapper}>
-        <Image source={DiscordImg} style={styles.icon} />
+        <Image source={GoogleImg} style={styles.icon} />
       </View>
       <Text style={styles.title}>
         {title}
